@@ -1,0 +1,50 @@
+// Write your overrides
+.text-danger{
+  color: red;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.v-data-table__tbody{
+  td{
+    vertical-align: baseline;
+
+  
+  }
+}
+
+.whitespace-normal{
+  white-space: normal!important;
+}
+
+.text-right-input{
+  input{
+    text-align: end!important;
+  }
+}
+
+.p_history{
+  h3{
+    font-weight: 500;
+  }
+
+  padding: 16px;
+  border-radius: 5px;
+  border-inline-start: 5px solid #bd2130;
+  box-shadow: 0 1px 3px rgba(0,0,0,12%),0 1px 2px rgba(0,0,0,24%);
+}
+
+.table-bordered{
+  border-collapse: collapse;
+
+  td,th{
+    border: 1px solid #d5d5d5;
+    padding-block: 8px;
+    padding-inline: 16px;
+    text-align: end;
+  }
+
+
+}
