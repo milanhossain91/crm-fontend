@@ -101,6 +101,8 @@ declare module 'vue-router/auto/routes' {
     'apps-influencingroles': RouteRecordInfo<'apps-influencingroles', '/apps/influencingroles', Record<never, never>, Record<never, never>>,
     'apps-influencingroles-edit-id': RouteRecordInfo<'apps-influencingroles-edit-id', '/apps/influencingroles/edit/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'apps-influencingroles-list': RouteRecordInfo<'apps-influencingroles-list', '/apps/influencingroles/list', Record<never, never>, Record<never, never>>,
+    'apps-item': RouteRecordInfo<'apps-item', '/apps/item', Record<never, never>, Record<never, never>>,
+    'apps-item-list': RouteRecordInfo<'apps-item-list', '/apps/item/list', Record<never, never>, Record<never, never>>,
     'apps-jobtypes': RouteRecordInfo<'apps-jobtypes', '/apps/jobtypes', Record<never, never>, Record<never, never>>,
     'apps-jobtypes-edit-id': RouteRecordInfo<'apps-jobtypes-edit-id', '/apps/jobtypes/edit/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'apps-jobtypes-list': RouteRecordInfo<'apps-jobtypes-list', '/apps/jobtypes/list', Record<never, never>, Record<never, never>>,

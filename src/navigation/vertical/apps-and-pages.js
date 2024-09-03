@@ -66,6 +66,7 @@ export default [
     title: 'Settings',
     icon: { icon: 'tabler-settings' },
     children: [
+      { title: 'Item', to: 'apps-item-list' },
       { title: 'Country', to: 'apps-country-list' },
       { title: 'Zone', to: 'apps-zone-list' },
       { title: 'Organization Type', to: 'apps-organizationtype-list' },
